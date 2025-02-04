@@ -1,0 +1,30 @@
+.param-editor {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.param-field {
+  margin-bottom: 15px;
+}
+
+.param-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.param-field input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.param-field input:focus {
+  outline: none;
+  border-color: #0066cc;
+}
